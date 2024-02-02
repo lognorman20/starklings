@@ -1,8 +1,6 @@
 // Integer types implement basic comparison and arithmetic operators.
 // Felt252 operations should be avoided where possible, as they could have unwanted behavior.
 
-// I AM NOT DONE
-
 // TODO
 // Return the solution of x^3 + y - 2
 
@@ -10,8 +8,11 @@ use debug::PrintTrait;
 
 fn poly(x: usize, y: usize) -> usize {
     // FILL ME
+    let x3 = x * x * x;
+    let res = x3 + y - 2;
     res // Do not change
 }
+
 
 
 // Do not change the test function
